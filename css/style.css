@@ -5,8 +5,8 @@
 
 .logo img {
     position: absolute;
-    margin-top: -16px;
-    margin-left: 25px;
+    margin-top: 10px;
+    margin-left: 140px;
     width: 100px;
 
 }
@@ -25,16 +25,33 @@
     display: inline-block;
 }
 
+.navbar ul li :after{
+    content:'';
+    width: 0%;
+    height:2px;
+    background: #7168F6;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar ul li :hover::after{
+    width: 65%;
+}
+
+
 .navbar a{
     text-decoration: none;
     color: #666666;
     width: 100px;
     display: block;
-    padding: 25px 25px;
+    padding: 10px 10px;
     text-transform: uppercase;
     font-weight:light;
     text-align: center;
     font-size: 14px;
+    margin-right:40px;
+    margin-top: 40px;
 
 }
 
@@ -51,6 +68,7 @@ h2 {
     font-weight:bold;
     font-family: "poppins", sans-serif;
     color: #3e3e3e;
+    margin-top: 80px;
 
 }
 
@@ -152,6 +170,7 @@ footer{
     height: auto;
     width: 100vw;
     padding-top: 40px;
+    margin-bottom: 80px;
 }
 
 .footerlogo img{
@@ -164,3 +183,4 @@ footer{
 }
 
 
+ 
