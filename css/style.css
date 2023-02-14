@@ -114,6 +114,17 @@ p {
     padding-top: 50px;
 }
 
+.view-button{
+    display: inline-block;
+    color: #7168F6;
+    border: none;
+    font-size: 12px;
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
 .possumTrip {
     display: flex;
     align-items: center;
@@ -182,5 +193,8 @@ footer{
     padding-top: 50px;
 }
 
+.email {
+    color: #7168F6;
 
+}
  
