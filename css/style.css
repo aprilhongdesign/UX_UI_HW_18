@@ -95,11 +95,12 @@ p {
 .cifa h3{
     align-items: center;
     display: flex;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     margin: -90px;
     padding-bottom: 100px;
     padding-top: 150px;
+
 }
 
 .cifa p{
@@ -134,7 +135,7 @@ p {
 .possumTrip h3{
     align-items: center;
     display: flex;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     margin: 0px;
     
@@ -160,7 +161,7 @@ p {
 .gottoGo h3{
     align-items: center;
     display: flex;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     margin: 33px;
     
@@ -198,3 +199,6 @@ footer{
 
 }
  
+@media(max-width: 700px) {
+
+}
