@@ -60,7 +60,7 @@
 }
 
 
-h2 {
+.intro h2 {
     font-size: 16px;
     margin: 10px;
     padding: 10px;
@@ -72,11 +72,21 @@ h2 {
 
 }
 
-p {
+.intro p{
     font-size: 13px;
     margin: 10px;
     padding: 10px;
     text-align: center;
+    color: #666666;
+    line-height: 0px;
+
+}
+
+.cifa-text p {
+    font-size: 13px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
     color: #666666;
     line-height: 0px;
 }
@@ -137,13 +147,18 @@ p {
     display: flex;
     font-size: 15px;
     font-weight: 300;
-    margin: 0px;
+    margin: 19px;
     
 }
 
 .possumTrip p{
     display: flex;
-    margin-left: -8px;
+    font-size: 13px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    color: #666666;
+    line-height: 0px;
 }
 
 .possumTrip img{
@@ -163,13 +178,18 @@ p {
     display: flex;
     font-size: 15px;
     font-weight: 300;
-    margin: 33px;
+    margin: 18px;
     
 }
 
 .gottoGo p{
     display: flex;
-    margin-left: 25px;
+    font-size: 13px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    color: #666666;
+    line-height: 0px;
 }
 
 .gottoGo img{
@@ -196,9 +216,41 @@ footer{
 
 .email {
     color: #7168F6;
+    position:relative;
+    left: 42.5%;
+    top: 0;
+    padding-top: 50px;
+}
 
+.phone p{
+    text-align: center;
 }
  
 @media(max-width: 700px) {
 
+    html{
+        font-size: 55%;
+    }
+    
+    header {
+        padding:2rem;
+    }
+
+.navbar{
+    display: block;
+}
+
+.navbar{
+    position: absolute;
+    top: 100%; left:0; right: 0;
+    background: #ffffff;
+    border-top: .1rem solid rgba(0,0,0,.1);
+}
+}
+
+
+.navbar a{
+    margin:1.5rem;
+    padding:1.5rem;
+    background: #ffffff;
 }
